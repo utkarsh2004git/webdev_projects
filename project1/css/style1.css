@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.navtag{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 5px 100px;
+    align-items: center;
+    background-color: rgb(57, 55, 55);
+}
+.logo_part {
+    display: flex;
+    border: 2px solid #ccc;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.navtag ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.navtag ul li a{
+    padding: 0px 6px;
+    color: white;
+    text-decoration: none;
+}
+.navtag ul li a:hover{
+    cursor: pointer;
+    color: rgba(251, 174, 32, 0.715);
+}
+.search{
+    padding: 0 20px;
+}
+.search input{
+    height: 1.8rem;
+    width: 40rem;
+}
+
+.search button{
+    color: white;
+    background-color: orange;
+    padding: 0.3rem;
+
+}
+.search button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+
+/* product order part */
+.container1{
+    /* margin: 20px; */
+    display: flex;
+    border: 2px solid rgb(48, 142, 235) ;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.container1 div h4{
+    color: #9c9494;
+    font-size: 12px;
+}
+.container1 div h5{
+    font-size: 25px;
+}
+.container1 div p{
+    font-size:14px;
+    color: rgb(38, 182, 239);
+    
+}
+.container1 div p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.container1 .part2 div img{
+    height: 5rem;   
+}
+.container2 .blue{
+    padding: 0 5px;  
+}
+.infopart .inside_info{
+
+    font-size: 15px;
+    color: rgb(11, 127, 172);
+    font-weight: bold;
+}
+.container1 .part2{
+    display: flex;
+    width: 36%;
+    padding: 3px;
+}
+.container2 .imgpart img{
+    height: 4rem;
+}
+.container2 .imgpart{
+    border-right: 2px solid #ccc;
+    padding-right: 5px;
+}
+.infopart{
+    padding: 7px 0 0 3px;
+}
+.container2 .part3 span{
+    font-size: 12px;
+    font-weight: bold;
+}
+.container2 .part3 span p{
+    font-size: 10px;
+}
+.container2 .blue img{
+    height: 23px;
+}
+.container2{
+    display: flex;
+    padding: 10px 30px;
+    border: 3px solid rgb(48, 142, 235);
+    border-radius: 5px;
+    border-left: 10px solid rgb(48, 142, 235);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 90vh;
+    justify-content: space-between;
+}
+.container .star{
+    padding: 5px;
+}
+.container3 .rate{
+    font-size: 20px;
+    padding-left: 5px;
+}
+.container4{
+    border: 2px solid rgb(48, 142, 235);
+    border-radius: 5px;
+    padding: 5px;
+}
+.container4 .part1{
+    display: flex;
+
+}
+.container4 .fortextarea textarea{
+    width: 100%;
+    height: 10vh;
+    font-size: 1.5em;
+    text-align: left;
+    border: 1px solid #000;
+    resize: none;
+    padding: 4px;
+}
+.container4 .fortextarea{
+    padding: 5px 10px;
+}
+.select_here{
+    margin-left: 80px;
+}
+.feed{
+    font-size: 14px;
+}
+.feed a{
+    color: rgb(40, 112, 218);
+}
+
+.container4 button{
+    background-color:rgb(48, 142, 235);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 6px;
+    border: none;
+}
+.container4 button:hover{
+    cursor: pointer;
+    color: white;
+}
