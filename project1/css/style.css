@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.navtag{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 5px 100px;
+    align-items: center;
+    background-color: rgb(57, 55, 55);
+}
+.logo_part {
+    display: flex;
+    border: 2px solid #ccc;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.navtag ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.navtag ul li a{
+    padding: 0px 6px;
+    color: white;
+    text-decoration: none;
+}
+.navtag ul li a:hover{
+    cursor: pointer;
+    color: rgba(251, 174, 32, 0.715);
+}
+.search{
+    padding: 0 20px;
+}
+.search input{
+    height: 1.8rem;
+    width: 40rem;
+}
+
+.search button{
+    color: white;
+    background-color: orange;
+    padding: 0.3rem;
+
+}
+.search button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+.container{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.img{
+    height: 150px;
+    padding: 3px;
+}
+
+.product{
+    display: flex;
+    padding: 10px;
+    width: 50%;
+    border: 2px solid #ccc;
+    margin: 10px;
+    box-shadow: 3px 3px #cccccc37;
+}
+.pro_details{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding-left: 10px;
+}
+.pro_details{
+    border-left: 2px solid #ccc;
+}
+.reviews{
+    color: rgba(21, 21, 109, 0.822);
+    font-weight: bold;
+    text-decoration: underline;
+}
+.checked{
+    color: orange;
+    
+}
+.price .p1{
+    font-size: 12px;
+}
+.price .p2{
+    color: rgba(239, 38, 38, 0.789);
+}
+.det a{
+    text-decoration: none;
+}
+.det a:hover{
+    text-decoration: underline;
+}

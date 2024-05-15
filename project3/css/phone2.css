@@ -1,0 +1,101 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+#logo img{
+    margin: -19px 6px;
+}
+
+/* Home */
+#home{
+    height: 168px;
+    padding: 33px 77px;
+
+}
+#home::before{
+    height: 552px;
+
+}
+#home p{
+    font-size: 13px;
+}
+
+
+
+
+/* Services */
+
+#services{
+    flex-direction: column;
+}
+#services .box img{
+    height: 82px;
+}
+
+
+/* Client */
+#clients{
+    flex-wrap: wrap;
+}
+.client_item{
+    padding: 10px;
+}
+#clients img
+{
+    height:35px ;
+    border-radius: 8px;
+}
+#client_section{
+    height: 127px;
+
+}
+.h_primary_center {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 16px;
+
+}
+
+/* Contact us */
+#contact_box label{
+    font-size: 14px;
+    font-family: 'Gabriela', serif;
+    font-weight: bold;
+    
+}
+
+
+
+/* footer */
+footer{
+    font-size: 13px;
+}
+
+/* utility classes */
+.h_primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 9px 7px;
+    margin-top: 42px;
+}
+.btn2{
+    padding: 5px 12px;
+}
+.line{
+    width: 25px;
+}
+@keyframes line{
+    from{
+        left: 32%;
+    }
+    to{
+        left: 62%;
+    }
+}
